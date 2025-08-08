@@ -1,73 +1,40 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+---
+name: Suggest Changes or Report Issues
+about: Use this template to report bugs or suggest improvements to the project.
+title: ''
+labels: discussion, question
+assignees: Roshanjossey
+---
 
-"""
-welcome.py
+<!--
+Thank you for contributing to the First Contributions project!
+Before submitting, please ensure you've read the project design guidelines here: 
+https://github.com/firstcontributions/first-contributions/issues/35892
 
-A friendly and professional onboarding script for new contributors.
+If you have any questions or need clarification, feel free to comment in the linked issue.
+-->
 
-Usage:
-    python welcome.py
+## 🐞 Problem Description
+Please provide a detailed explanation of the issue or enhancement you want to propose.
+- What is the current behavior?
+- What problem does it cause or what improvement will it bring?
 
-Purpose:
-    ✅ Welcome new contributors to the project.
-    ✅ Provide clear next steps for contributing.
-    ✅ Confirm that Python is installed and working correctly.
+## 🎯 Goal
+Why is this change important?
+- How do you plan to use it?
+- How will it benefit other users or the project?
 
-Author: Your Name
-Project: First Contributions
-"""
+## 💡 Proposed Solutions (Optional)
+Share any ideas or approaches for implementing this change.
 
-import time
-import platform
-import sys
+## 📋 Steps to Contribute
+1. Comment below indicating what part you want to work on.
+2. Fork the repository and create a new branch.
+3. Make your changes, then commit and push them.
+4. Submit a Pull Request with a reference to this issue by adding `Addresses #<issue-number>` in the comments.
+5. Request reviews in the PR comments.
+6. Celebrate your valuable contribution! 🎉
 
+---
 
-def print_welcome():
-    """
-    Prints a professional, engaging welcome message with
-    onboarding instructions and environment details.
-    """
-    print("\n" + "=" * 70)
-    print("🌟  Welcome to the First Contributions Project! 🌟".center(70))
-    print("=" * 70)
-    time.sleep(0.6)
-
-    print("\n👋 Hello, Contributor!")
-    print("We're excited to have you join our open-source community.")
-    print("Your journey into collaborative coding starts right now! 🚀\n")
-    time.sleep(1)
-
-    # Environment information
-    print("🔍 Environment Check:")
-    print(f"   • Python Version : {platform.python_version()}")
-    print(f"   • Operating System : {platform.system()} {platform.release()}")
-    print(f"   • Interpreter Path : {sys.executable}\n")
-    time.sleep(0.5)
-
-    # Next steps
-    print("📖 Getting Started — Your Next Steps:")
-    print("   1️⃣  Read the README.md to understand the project.")
-    print("   2️⃣  Review the CONTRIBUTING.md guidelines.")
-    print("   3️⃣  Fork this repository to your GitHub account.")
-    print("   4️⃣  Clone your fork locally: git clone <your-fork-url>")
-    print("   5️⃣  Create a new branch for your changes.")
-    print("   6️⃣  Make your changes and commit with clear messages.")
-    print("   7️⃣  Push your branch and open a Pull Request (PR).\n")
-    time.sleep(1)
-
-    # Pro tips
-    print("💡 Pro Tips for a Great Contribution:")
-    print("   • Keep your PRs small, focused, and easy to review.")
-    print("   • Use meaningful commit messages.")
-    print("   • Be respectful and collaborative in code reviews.")
-    print("   • Don’t hesitate to ask questions — we love curiosity!\n")
-    time.sleep(0.6)
-
-    print("✅ If you can see this message, your Python setup works perfectly!")
-    print("🎉 Happy coding and welcome aboard!\n")
-    print("=" * 70)
-
-
-if __name__ == "__main__":
-    print_welcome()
+Thank you for helping make this project better!
